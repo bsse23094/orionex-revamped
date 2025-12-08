@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Galaxy from './components/Galaxy'
 import CardNav from './components/CardNav'
 import Home from './pages/Home'
