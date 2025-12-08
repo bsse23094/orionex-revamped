@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://BK-sensei.github.io/orionex-revamped",
+  "homepage": "https://BK-sensei.github.io/bsse23094",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
