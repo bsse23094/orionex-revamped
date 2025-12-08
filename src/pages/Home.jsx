@@ -37,19 +37,19 @@ function Home() {
       icon: faRobot,
       title: 'ai & automation',
       description: 'transform your business with intelligent automation and cutting-edge ai technologies.',
-      link: '/ai-automation'
+      link: '#/ai-automation'
     },
     {
       icon: faGlobe,
       title: 'web development',
       description: 'building high-performance, scalable web applications with modern architectures.',
-      link: '/web-development'
+      link: '#/web-development'
     },
     {
       icon: faMicrochip,
       title: 'embedded & iot',
       description: 'smart connected devices and industrial iot solutions with real-time analytics.',
-      link: '/embedded-iot'
+      link: '#/embedded-iot'
     }
   ]
 

@@ -26,9 +26,9 @@ function App() {
       bgColor: "transparent",
       textColor: "#fff",
       links: [
-        { label: "about us", ariaLabel: "About Orionex", href: "#/about" },
-        { label: "our process", ariaLabel: "Our Development Process", href: "#/" },
-        { label: "technologies", ariaLabel: "Technologies We Use", href: "#/" }
+        { label: "about us", ariaLabel: "About Orionex", href: "#/#about" },
+        { label: "our process", ariaLabel: "Our Development Process", href: "#/#process" },
+        { label: "technologies", ariaLabel: "Technologies We Use", href: "#/#technologies" }
       ]
     },
     {
@@ -36,8 +36,8 @@ function App() {
       bgColor: "transparent", 
       textColor: "#fff",
       links: [
-        { label: "get in touch", ariaLabel: "Contact Us", href: "#/contact" },
-        { label: "linkedin", ariaLabel: "LinkedIn", href: "https://linkedin.com" },
+        { label: "get in touch", ariaLabel: "Contact Us", href: "#/#contact" },
+        { label: "linkedin", ariaLabel: "LinkedIn", href: "https://www.linkedin.com/company/orionex/" },
         { label: "github", ariaLabel: "GitHub", href: "https://github.com/bsse23094" }
       ]
     }
