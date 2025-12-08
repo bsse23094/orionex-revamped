@@ -1,0 +1,84 @@
+:root {
+  font-family: 'Elms Sans', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  /* Minimal White Theme */
+  --white: #ffffff;
+  --black: #000000;
+  --gray: rgba(255, 255, 255, 0.1);
+
+  color-scheme: dark;
+  color: var(--white);
+  background-color: var(--black);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--black);
+  overflow-x: hidden;
+  font-family: 'Elms Sans', system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: var(--white);
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+button {
+  border: 1px solid var(--white);
+  padding: 0.75rem 2rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: 'Syncopate', sans-serif;
+  background: transparent;
+  color: var(--white);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+}
+
+button:hover {
+  background: var(--white);
+  color: var(--black);
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--white);
+}
