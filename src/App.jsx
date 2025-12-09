@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Galaxy from './components/Galaxy'
 import CardNav from './components/CardNav'
 import Home from './pages/Home'
@@ -16,9 +16,9 @@ function App() {
       bgColor: "transparent",
       textColor: "#fff",
       links: [
-        { label: "ai & automation", ariaLabel: "AI & Automation Services", href: "#/ai-automation" },
-        { label: "web development", ariaLabel: "Web Development Services", href: "#/web-development" },
-        { label: "embedded & iot", ariaLabel: "Embedded & IoT Services", href: "#/embedded-iot" }
+        { label: "ai & automation", ariaLabel: "AI & Automation Services", href: "/ai-automation" },
+        { label: "web development", ariaLabel: "Web Development Services", href: "/web-development" },
+        { label: "embedded & iot", ariaLabel: "Embedded & IoT Services", href: "/embedded-iot" }
       ]
     },
     {
@@ -26,9 +26,9 @@ function App() {
       bgColor: "transparent",
       textColor: "#fff",
       links: [
-        { label: "about us", ariaLabel: "About Orionex", href: "#/#about" },
-        { label: "our process", ariaLabel: "Our Development Process", href: "#/#process" },
-        { label: "technologies", ariaLabel: "Technologies We Use", href: "#/#technologies" }
+        { label: "about us", ariaLabel: "About Orionex", href: "/#about" },
+        { label: "our process", ariaLabel: "Our Development Process", href: "/#process" },
+        { label: "technologies", ariaLabel: "Technologies We Use", href: "/#technologies" }
       ]
     },
     {
@@ -36,7 +36,7 @@ function App() {
       bgColor: "transparent", 
       textColor: "#fff",
       links: [
-        { label: "get in touch", ariaLabel: "Contact Us", href: "#/#contact" },
+        { label: "get in touch", ariaLabel: "Contact Us", href: "/#contact" },
         { label: "linkedin", ariaLabel: "LinkedIn", href: "https://www.linkedin.com/company/orionex/" },
         { label: "github", ariaLabel: "GitHub", href: "https://github.com/bsse23094" }
       ]
