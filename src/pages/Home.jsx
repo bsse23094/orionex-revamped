@@ -258,11 +258,11 @@ function Home() {
               <a href="#contact">contact</a>
             </div>
             <div className="link-group">
-              <h4>technologies</h4>
-              <a href="#technologies">ai & ml</a>
-              <a href="#technologies">web development</a>
-              <a href="#technologies">embedded systems</a>
-              <a href="#technologies">iot solutions</a>
+              <h4>services</h4>
+              <Link to="/ai-automation">ai & automation</Link>
+              <Link to="/web-development">web development</Link>
+              <Link to="/embedded-iot">embedded & iot</Link>
+              <a href="#technologies">technologies</a>
             </div>
             <div className="link-group">
               <h4>legal</h4>
